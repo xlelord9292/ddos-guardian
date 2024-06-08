@@ -38,9 +38,8 @@ After=network.target
 Type=simple
 User=root
 WorkingDirectory=/etc/ddos-guardian
-ExecStart=/usr/bin/node /etc/ddos-guardian/attack.js
+ExecStart=/usr/bin/node /etc/ddos-guardian/attacks.js
 Restart=always
-RestartSec=3
 StandardOutput=syslog
 StandardError=syslog
 
