@@ -18,7 +18,7 @@
 * Port 7500 Open
 
 ## How To Install
-* download .setup_ddosguardian_service.sh
+* download setup_ddosguardian_service.sh and drag into the root Directory Then
 
 * run: chmod +x setup_ddosguardian_service.sh
 
