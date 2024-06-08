@@ -8,7 +8,7 @@ mkdir /etc/ddos-guardian
 
 cd /etc/ddos-gurdian
 
-git clone 
+git clone https://github.com/xlelord9292/ddos-guardian
 
 npm install
 
