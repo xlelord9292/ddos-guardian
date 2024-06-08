@@ -4,16 +4,12 @@ if [ -d "/etc/ddos-guardian" ]; then
     exit 1
 fi
 
-
-mkdir /etc/ddos-guardian
-
-
-cd /etc/ddos-guardian
-
+cd /etc/
 
 git clone https://github.com/xlelord9292/ddos-guardian
 
-cd ddos-guardian
+
+cd /etc/ddos-guardian
 
 npm install
 
@@ -24,17 +20,15 @@ apt upgrade -y
 
 cat <<EOF > /etc/systemd/system/guardian.service
 [Unit]
-Description=DDoS Guardian Service
+Description=
 After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/node /etc/ddos-guardian/ddos-guardian/attack.js
-WorkingDirectory=/etc/ddos-guardian/ddos-guardian
-Restart=always
-RestartSec=3
-StandardOutput=syslog
-StandardError=syslog
+User=root
+WorkingDirectory=/etc/ddos-guardian/
+ExecStart=node attacks.js
+Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
