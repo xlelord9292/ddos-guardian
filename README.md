@@ -24,7 +24,7 @@
 
 * then You may go to /etc/ddosguardian and edit the .env to your liking
 
-* if you got any issues please Make a issues Ticket or Joinhttps://discord.gg/relationalhosting
+* if you got any issues please Make a issues Ticket or Join https://discord.gg/relationalhosting
 
 ### Features
 - WAF
