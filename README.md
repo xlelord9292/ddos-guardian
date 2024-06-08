@@ -36,6 +36,3 @@
 - Performence
 
 - ddos protection
-
-## Warning
-* this is Currently NOT Finished So I Would Recommend Not Adding this Yet
