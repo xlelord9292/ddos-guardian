@@ -34,3 +34,7 @@
 - Performence
 
 - ddos protection
+
+
+## Layer 7 Protection?
+- https://github.com/xlelord9292/ddos-guardian-layer-7
