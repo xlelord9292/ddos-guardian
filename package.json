@@ -2,8 +2,11 @@
   "dependencies": {
     "child_process": "^1.0.2",
     "dgram": "^1.0.1",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
     "fs": "^0.0.1-security",
     "http": "^0.0.1-security",
+    "http-proxy": "^1.18.1",
     "net": "^1.0.2",
     "url": "^0.11.3"
   }
