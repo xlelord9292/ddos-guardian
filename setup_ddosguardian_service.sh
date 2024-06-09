@@ -80,4 +80,7 @@ iptables-save > /etc/iptables/rules.v4
 cd /etc/nginx/conf.d/
 git clone https://github.com/xlelord9292/ddos-guardian-layer-7
 
+sudo apt-get install libnginx-mod-http-lua
+
 echo "DDoS Guardian setup complete."
+
