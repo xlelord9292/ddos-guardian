@@ -162,6 +162,6 @@ app.use((req, res) => {
     proxy.web(req, res, { target: `${target}${req.url}` });
 });
 
-app.listen(8080, () => {
-    console.log('HTTP server with Layer 7 protection is listening on port 8080');
+app.listen(5587, () => {
+    console.log('HTTP server with Layer 7 protection is listening on port 5587');
 });
