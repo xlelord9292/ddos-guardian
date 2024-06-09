@@ -81,4 +81,3 @@ cd /etc/nginx/conf.d/
 git clone https://github.com/xlelord9292/ddos-guardian-layer-7
 
 echo "DDoS Guardian setup complete."
-echo "[DDoS Guardian] Please Read Docs To Learn How To Set This Up With Nginx"
