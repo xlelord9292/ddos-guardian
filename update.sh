@@ -55,6 +55,7 @@ systemctl start guardian
 
 
 cd /etc/nginx/conf.d/
+sudo apt-get install libnginx-mod-http-lua
 
 if [ -d "ddos-guardian-layer-7" ]; then
     echo "Removing existing /etc/nginx/conf.d/ddos-guardian-layer-7 directory..."
@@ -63,5 +64,4 @@ fi
 
 git clone https://github.com/xlelord9292/ddos-guardian-layer-7
 
-echo "DDoS Guardian setup complete."
-echo "[DDoS Guardian] Please Read Docs To Learn How To Set This Up With Nginx"
+echo "DDoS Guardian Update complete."
