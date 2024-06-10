@@ -38,3 +38,10 @@
 
 ## Layer 7 Protection?
 - https://github.com/xlelord9292/ddos-guardian-layer-7
+
+### What is Advanced Option?
+- The Advanced Script Will Protect u From Even Higher Attacks including some Scripts that will try and exploit our firewall we highly recommend using This If your trying to protect only Layer 4 Attacks but for layer 7 Please use the layer 7 protection which will protect u from nearly any layer 7 attacks!
+
+
+## Discord?
+https://discord.gg/mGkq6xr6Vr | https://discord.gg/relationalhosting
