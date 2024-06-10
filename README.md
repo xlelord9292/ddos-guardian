@@ -42,4 +42,4 @@
 
 
 ## Discord?
-https://discord.gg/mGkq6xr6Vr | https://discord.gg/relationalhosting
+https://discord.gg/bFpKWYRzVn | https://discord.gg/relationalhosting
